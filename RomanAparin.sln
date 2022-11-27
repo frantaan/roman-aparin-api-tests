@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanAparin.ApiTests", "src\RomanAparin.ApiTests\RomanAparin.ApiTests.csproj", "{175E4E03-847A-41BF-9640-5461DDB299FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanAparin.Common", "src\RomanAparin.Common\RomanAparin.Common.csproj", "{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{22EDB847-1C80-48F9-8361-D02CE45616ED}"
+	ProjectSection(SolutionItems) = preProject
+		src\Dockerfile = src\Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportPortal", "ReportPortal", "{64BC3D4E-39C2-4D94-BB82-BE5E200ED760}"
+	ProjectSection(SolutionItems) = preProject
+		src\ReportPortal\docker-compose.yaml = src\ReportPortal\docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jenkins", "Jenkins", "{D343B60F-5322-4511-8628-F80243E12E98}"
+	ProjectSection(SolutionItems) = preProject
+		src\Jenkins\docker-compose.yaml = src\Jenkins\docker-compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{175E4E03-847A-41BF-9640-5461DDB299FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175E4E03-847A-41BF-9640-5461DDB299FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175E4E03-847A-41BF-9640-5461DDB299FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175E4E03-847A-41BF-9640-5461DDB299FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64BC3D4E-39C2-4D94-BB82-BE5E200ED760} = {22EDB847-1C80-48F9-8361-D02CE45616ED}
+		{D343B60F-5322-4511-8628-F80243E12E98} = {22EDB847-1C80-48F9-8361-D02CE45616ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {194CFA40-42C7-4312-9056-DD46A8BB506D}
+	EndGlobalSection
+EndGlobal
