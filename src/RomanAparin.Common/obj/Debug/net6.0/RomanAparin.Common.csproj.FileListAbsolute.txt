@@ -1,0 +1,13 @@
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\bin\Debug\net6.0\RomanAparin.Common.deps.json
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\bin\Debug\net6.0\RomanAparin.Common.dll
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\bin\Debug\net6.0\RomanAparin.Common.pdb
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.csproj.AssemblyReference.cache
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.AssemblyInfoInputs.cache
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.AssemblyInfo.cs
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.dll
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\refint\RomanAparin.Common.dll
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\RomanAparin.Common.pdb
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\obj\Debug\net6.0\ref\RomanAparin.Common.dll
+C:\Users\root\source\repos\RomanAparin\RomanAparin.Common\bin\Debug\net6.0\appsettings.json
