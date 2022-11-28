@@ -22,7 +22,7 @@ RomanAparin.UITests/ReportPortal.config.json - json for configure ui test projec
 
 * If the project is running locally, replace the value of the HubUrl variable in the RomanAparin.SelenimWebdriver/appsettings.json file with http://localhost:4444
 * If the project is running in docker, replace the value of the HubUrl variable in the RomanAparin.SelenimWebdriver/appsettings.json file with http://selenoid:4444
-* Update your uuid value in two projects before running ReportPortal.config.json files 
+* Update your uuid value in two ReportPortal.config.json files projects before running 
 
 ## Installing
 
