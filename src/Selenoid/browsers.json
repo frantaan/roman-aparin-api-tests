@@ -1,0 +1,19 @@
+{
+  "chrome": {
+    "default": "91.0",
+    "versions": {
+      "91.0": {
+        "image": "selenoid/vnc:chrome_91.0",
+        "port": "4444",
+        "path": "/",
+        "tmpfs": {
+          "/tmp": "size=1024m",
+          "/var": "size=512m"
+        },
+        "shmSize": 268435456,
+        "cpu": "1.0",
+        "mem": "2048m"
+      }
+    }
+  }
+}

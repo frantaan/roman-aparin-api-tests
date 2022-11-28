@@ -8,18 +8,19 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanAparin.Common", "src\RomanAparin.Common\RomanAparin.Common.csproj", "{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{22EDB847-1C80-48F9-8361-D02CE45616ED}"
-	ProjectSection(SolutionItems) = preProject
-		src\Dockerfile = src\Dockerfile
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportPortal", "ReportPortal", "{64BC3D4E-39C2-4D94-BB82-BE5E200ED760}"
 	ProjectSection(SolutionItems) = preProject
 		src\ReportPortal\docker-compose.yaml = src\ReportPortal\docker-compose.yaml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jenkins", "Jenkins", "{D343B60F-5322-4511-8628-F80243E12E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanAparin.SeleniumWebdriver", "src\RomanAparin.SeleniumWebdriver\RomanAparin.SeleniumWebdriver.csproj", "{12951084-F5EC-44B6-A5AC-C3213E0C2403}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanAparin.UITests", "src\RomanAparin.UITests\RomanAparin.UITests.csproj", "{35A12D80-D4DB-40B8-94AB-6933F20634AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selenoid", "Selenoid", "{7BA6C6BC-49CF-47E8-9FDA-F4F19EA73D62}"
 	ProjectSection(SolutionItems) = preProject
-		src\Jenkins\docker-compose.yaml = src\Jenkins\docker-compose.yaml
+		src\Selenoid\docker-compose.yml = src\Selenoid\docker-compose.yml
 	EndProjectSection
 EndProject
 Global
@@ -36,13 +37,21 @@ Global
 		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEE1A67B-62E8-4BD8-8EF2-E4EA9346CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12951084-F5EC-44B6-A5AC-C3213E0C2403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12951084-F5EC-44B6-A5AC-C3213E0C2403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12951084-F5EC-44B6-A5AC-C3213E0C2403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12951084-F5EC-44B6-A5AC-C3213E0C2403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A12D80-D4DB-40B8-94AB-6933F20634AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A12D80-D4DB-40B8-94AB-6933F20634AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A12D80-D4DB-40B8-94AB-6933F20634AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A12D80-D4DB-40B8-94AB-6933F20634AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{64BC3D4E-39C2-4D94-BB82-BE5E200ED760} = {22EDB847-1C80-48F9-8361-D02CE45616ED}
-		{D343B60F-5322-4511-8628-F80243E12E98} = {22EDB847-1C80-48F9-8361-D02CE45616ED}
+		{7BA6C6BC-49CF-47E8-9FDA-F4F19EA73D62} = {22EDB847-1C80-48F9-8361-D02CE45616ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {194CFA40-42C7-4312-9056-DD46A8BB506D}

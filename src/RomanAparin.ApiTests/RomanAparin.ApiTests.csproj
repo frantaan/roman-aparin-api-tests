@@ -11,11 +11,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Remove="Jenkins\**" />
       <Compile Remove="ReportPortal\**" />
-      <EmbeddedResource Remove="Jenkins\**" />
       <EmbeddedResource Remove="ReportPortal\**" />
-      <None Remove="Jenkins\**" />
       <None Remove="ReportPortal\**" />
     </ItemGroup>
 

@@ -1,0 +1,1 @@
+docker-compose -f ./ReportPortal/docker-compose.yaml up -d && docker-compose -f ./Selenoid/docker-compose.yaml up -d && docker pull selenoid/vnc:chrome_91.0

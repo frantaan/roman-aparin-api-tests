@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "http://host.docker.internal:8080/api/v1/",
+    "project": "default_personal",
+    "authentication": {
+      "uuid": "6fe10bc7-82ff-46bc-95c9-e8dc86b90a80"
+    }
+  },
+  "launch": {
+    "name": "UITests",
+    "description": "",
+    "debugMode": false,
+    "tags": []
+  },
+  "rootNamespaces": [
+    "RomanAparin.UITests"
+  ]
+}
