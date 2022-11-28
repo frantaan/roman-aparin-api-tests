@@ -1,1 +1,0 @@
-docker-compose -f ./ReportPortal/docker-compose.yaml up -d && docker-compose -f ./Jenkins/docker-compose.yaml up -d
