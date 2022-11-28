@@ -54,7 +54,8 @@ In RomanAparin folder:
 
 You can follow the progress of the ui tests here http://localhost:9090/#/
 
-After the tests are completed, the report will be sent to the ReportPortal http://localhost:8080/ 
+After the tests are completed, the report will be sent to the ReportPortal http://localhost:8080/
+
 User for ReportPortal: default\1q2w3e
 
 ![image](https://user-images.githubusercontent.com/52231678/204175812-636dae43-fa51-49c1-aec3-247f18326548.png)
